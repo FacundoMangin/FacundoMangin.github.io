@@ -1,0 +1,76 @@
+ /*Que no haya espacios blancos en los bordes */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --color-borde-footer: rgba(92, 0, 95, 0.685);
+}
+
+body{
+    font-family: 'Concert One'; /*fuente de la letra*/
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1100px){
+    .contenedor{
+        width: 85%;
+    }
+} 
+
+.resina-filamento{
+  background-color: #ffffff;
+}
+
+.carrousel{
+  background-color: #fef6ff;
+}
+
+.footer{
+  background: var(--color-fondo-footer);  
+  border-top: 5px solid var(--color-borde-footer);
+  border-bottom: 5px solid var(--color-borde-footer);
+}
+
+::-webkit-scrollbar {
+    width: 1.3rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: #810daf;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4c0169;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f9f9f9;
+  }
+
+
+.derechos-de-autor{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.derechos-de-autor p{
+  margin: 0;
+}
+
+
+
+
+

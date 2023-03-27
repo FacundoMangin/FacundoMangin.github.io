@@ -1,0 +1,174 @@
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Variables --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+
+:root{
+    --fondo-circulo-violeta: blueviolet;
+    --letras-titulo: blueviolet;
+    --borde-titulo: 0.3vw solid #000000;
+    --numero-circulo-violet: white;
+    --sombra-circulo-violeta: 0 0 6px 0 rgba(0, 0, 0, .5);
+  }
+
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Imagen Diferencia entre "Resina" y "Filamento" --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+
+.titulo-diferencia{
+    color: var(--letras-titulo); 
+    font-weight:bold; 
+    padding:15px; 
+    margin-top:40px;
+    margin-bottom:40px;
+    text-align:center;
+    font-size:3vw;
+    border-radius:10px;
+    
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.imagen-about-us{
+    width: 48%;
+}
+
+.sobre-nosotros .contenidos-textos{
+    width: 48%;
+}
+
+.contenidos-textos{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
+}
+
+.contenidos-textos h3{
+    font-size: 1.875vw;
+
+}
+
+.contenidos-textos h3 span{     /*circulo violeta*/
+    background:var(--fondo-circulo-violeta) ;
+    color: var(--numero-circulo-violet);
+    border-radius: 50%;     /*para que sea redondo*/
+    display: inline-block;  /*propiedad de bloque*/
+    text-align: center;
+    width: 2.625vw;
+    height: 2.625vw;
+    padding: 1px;
+    box-shadow: var(--sombra-circulo-violeta);
+    margin-right: 5px;
+}
+
+.contenidos-textos p{
+    padding: 0px 0px 30px 15px;
+    font-size: 1.4vw;
+    text-align: justify;
+    font-family: 'Crete Round';
+}
+
+.contenedor-sobre-nosotros .imagen-resina{
+    display: none;
+}
+
+.contenedor-sobre-nosotros .imagen-impresora-filamento{
+    display: none;
+}
+
+/*----------------------------------------------------------- */
+
+
+@media screen and (max-width: 1280px){
+    .titulo-diferencia{
+        font-size:4vw;     
+    }
+    
+
+}
+
+
+@media screen and (max-width: 1100px){
+    .contenidos-textos p{
+        font-size: 2vw;
+    }
+
+}
+
+
+
+@media screen and (max-width: 850px){
+    
+    .contenidos-textos h3 span{     /*circulo violeta*/
+        display: none;
+    }
+
+    .contenedor-sobre-nosotros .imagen-resina{                         /*Muestra la imagen de la impresora de resina*/
+        display: flex;
+        width: 38%;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .contenedor-sobre-nosotros .imagen-impresora-filamento{         /*Muestra la imagen de la impresora de filamento*/
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contenedor-sobre-nosotros .imagen-about-us{
+        display: none;
+    }
+    
+    .contenedor-sobre-nosotros{                                     /*Muestra ebn columnos*/           
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenidos-textos{                             /*Tamaño de la imagen de impresora de filamento*/
+        width: 90%;
+    }
+
+    .contenidos-textos{                                             /*centra los titulos en rosa (RESINA Y FILAMENTE)*/
+        text-align: center; 
+    }
+
+    .contenidos-textos p{                                           /*centra los parrafos que estan debajo de los titulos*/
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .contenidos-textos h3{                                          /*Tamaño del titulo*/
+        color: #bb00ff;
+        font-size: 8vw;    
+    }
+
+    .contenedor-sobre-nosotros img{                                 /*pequeña separacion de las imagenes con respecto a los titulos*/
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 660px){
+
+    .titulo-diferencia{
+        font-size: 7.5vw;       
+    }
+    
+    .contenidos-textos p{
+        font-size: 5vw;
+    }
+
+}
+

@@ -1,0 +1,38 @@
+
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-color: #f5c0df;
+     background: linear-gradient(
+       25deg,
+       rgb(189, 155, 221),
+       rgb(153, 33, 133)
+     );
+     background-repeat: no-repeat;
+     height: 100%;
+     font-family: "Open Sans", sans-serif;
+   }
+
+   .container {
+     margin: 5% auto;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 10px;
+     overflow: hidden;
+     box-sizing: border-box;
+     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+   }
+   
+   .dropdown{
+     text-align: right;
+     padding: 20px;
+   }
+   
+   .escala img:hover {
+    transform: scale(1.05);
+  }
+
+
+  
