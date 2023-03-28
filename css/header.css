@@ -66,7 +66,7 @@ header .textos-header-abajo{  /*texto 2 Tamaño*/
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 85vh;
+        height: 82vh;
     }
 
     .logo-presentacion img{

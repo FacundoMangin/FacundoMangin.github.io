@@ -168,6 +168,8 @@ article{
         zoom: 1.2;
     }
   }
+
+  /*----------------------------------------------------------------*/
   
   @media (min-width: 2560px) {
     .contenedor-redes-sociales{
@@ -183,6 +185,8 @@ article{
     }
   }
   
+
+    /*----------------------------------------------------------------*/
   @media (min-width: 3840px) {
     .contenedor-redes-sociales {
       zoom: 2.5;
@@ -198,7 +202,7 @@ article{
   }
 
 
-
+  /*----------------------------------------------------------------*/
 
 
 
@@ -219,11 +223,11 @@ article{
  @media screen and (max-width: 750px){
     
     .footer-logo h1{
-        font-size: 10vw;
+        font-size: 13vw;
     }
     
     .footer-logo p{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .contenedor-redes-sociales{

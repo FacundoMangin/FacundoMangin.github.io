@@ -29,7 +29,13 @@ html {
 
 @media (min-width: 280px) {
   #carrusel {
-    zoom: 0.5;
+    zoom: ;
+  }
+}
+
+@media (min-width: 280px) {
+  #carrusel {
+    zoom: 0.7;
   }
 }
 
@@ -325,7 +331,6 @@ body {
   text-decoration: none;
 	background: var(--letras-titulo);
 	color: #fff;
-	display: inline-block;
 	padding: 12px 45px;
 	margin: 15px;
 	text-transform: uppercase;
