@@ -5,9 +5,9 @@ hechas con 2 modelos distintos de impresoras 3D
 
 __Tecnologias usadas para esta pagina__
 
-! [JavaScript](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
-! [HTML](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png)
-! [CSS](logo.jpg)
+![JavaScript](https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png)
+![HTML](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png)
+![CSS](./imagenes/)
 
 __Modelos de Impresoras__
 Tenemos a disposicion dos modelos de impresoras las cuales trabajan con distintas tecnologias.
