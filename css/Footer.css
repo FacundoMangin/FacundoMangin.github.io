@@ -30,6 +30,12 @@
     padding: 5% 0 5% 0;
 } 
 
+footer{
+    background: var(--color-fondo-footer);  
+    border-top: 5px solid var(--color-borde-footer);
+    border-bottom: 5px solid var(--color-borde-footer);
+}
+
 
 .footer-logo{
     color: var(--color-letras);
@@ -46,23 +52,6 @@
     font-size: 1.5vw;
 }
 
-
-
-.contenedor-footer .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45Px;
-    line-height: 41px;
-    color: var(--color-logo);
-    margin: 0px 2% 0px 2%;
-    text-align: center;
-    transition: all 300ms ease;
-    border-radius: 50%;
-    border:2px solid var(--color-logo);
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-
-}
 
 .developer{
     display: flex;
@@ -109,6 +98,23 @@ article{
 
 }
 
+.contenedor-footer .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45Px;
+    line-height: 41px;
+    font-size: 20px;
+    color: var(--color-logo);
+    margin: 0px 2% 0px 2%;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 50%;
+    border:2px solid var(--color-logo);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+}
+
 .contenedor-footer .red-social a:hover{
     transform: scale(1.2);
 }
@@ -149,6 +155,51 @@ article{
 /*--------------------------------------------------------------
 -----------------------  Respónsive  ---------------------------
 ----------------------------------------------------------------*/
+@media (min-width: 1440px) {
+    .contenedor-redes-sociales {
+      zoom: 1.2;
+    }
+
+    .developer .derechos-de-autor{
+        zoom: 1.2;
+    }
+
+    .derechos-de-autor{
+        zoom: 1.2;
+    }
+  }
+  
+  @media (min-width: 2560px) {
+    .contenedor-redes-sociales{
+      zoom: 1.7;
+    }
+
+    .developer {
+        zoom: 1.7;
+    }
+
+    .derechos-de-autor{
+        zoom: 1.7;
+    }
+  }
+  
+  @media (min-width: 3840px) {
+    .contenedor-redes-sociales {
+      zoom: 2.5;
+    }
+
+    .developer {
+        zoom: 2.5;
+    }
+
+    .derechos-de-autor{
+        zoom: 2.5;
+    }
+  }
+
+
+
+
 
 
  @media screen and (max-width: 1281px){
@@ -213,6 +264,10 @@ article{
         border-radius: 50%;
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     
+    }
+
+    .derechos-de-autor{
+        font-size: 4vw;
     }
 
 } 

@@ -27,19 +27,6 @@ body{
     }
 } 
 
-.resina-filamento{
-  background-color: #ffffff;
-}
-
-.carrousel{
-  background-color: #fef6ff;
-}
-
-.footer{
-  background: var(--color-fondo-footer);  
-  border-top: 5px solid var(--color-borde-footer);
-  border-bottom: 5px solid var(--color-borde-footer);
-}
 
 ::-webkit-scrollbar {
     width: 1.3rem;

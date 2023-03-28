@@ -142,6 +142,8 @@ body {
 
 #carrusel {
   padding: 4rem 0;
+  background-color: #f3e4f5;
+  border-top: 5px solid #f8d1fd;
 }
 
 @media (max-width:1440px) {
