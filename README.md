@@ -8,7 +8,9 @@ hechas con 2 modelos distintos de impresoras 3D
 
 # __Tecnologias usadas para esta pagina__
 
- __JavaScrip - HTML - CSS - Bootstrap -Swiper__
+ __JavaScrip - HTML - CSS - Bootstrap - Swiper__
+
+
 
 # __Como se penso la pagina__
 
