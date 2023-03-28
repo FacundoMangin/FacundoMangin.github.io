@@ -34,31 +34,17 @@
     
     <title>Commander 3D</title>
 </head>
+    
+    <?php include('./header-navegacion.html')?>
+    
 
-<body>
-    <header>
-        <?php include('./header-navegacion.html')?>
-    </header>
+    <?php include('./diferencia-resina.html')?>
 
+    <?php include('./carrusel.html')?>
+    
 
-    <main>
-        <div class="resina-filamento">
-            <?php include('./diferencia-resina.html')?>
-        </div>
-        
-        <div class="carrousel">
-            <?php include('./carrusel.html')?>
-        </div>
-    </main>
-
-    <footer class="footer">
     <?php include('./footer.html')?>
-    </footer>
     
-    
-    <div class="derechos-de-autor">
-        <p>© Copyright 2023 por Facundo Mangin</p>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
