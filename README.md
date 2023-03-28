@@ -4,6 +4,7 @@ Para este proyecto decidi hacer una pagina web de venta de figuras
 hechas con 2 modelos distintos de impresoras 3D
 
 <em> Todo es responsivo para todo tipo de pantallas desde 280px hasta 3840px</em>
+
 <em> Pantallas tanto del galaxy fold hasta pantallas 4k se veran bien. </em>
 
 # __Tecnologias usadas para esta pagina__
