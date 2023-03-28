@@ -6,8 +6,10 @@ hechas con 2 modelos distintos de impresoras 3D
 __Tecnologias usadas para esta pagina__
 
 JavaScrip - <img width="100px" src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"/>
-HTML - <img width="100px" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png"/>
-CSS - <img width="100px" src="https://pixabay.com/illustrations/logo-css-css3-icon-2582747/"/>
+
+HTML - <img width="50px" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png"/>
+
+CSS - <img width="50px" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"/>
 
 
 __Modelos de Impresoras__
