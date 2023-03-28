@@ -1,4 +1,4 @@
-!(banner.jpg)
+![Commander 3D](banner.jpg)
 
 Para este proyecto decidi hacer una pagina web de venta de figuras
 hechas con 2 modelos distintos de impresoras 3D
