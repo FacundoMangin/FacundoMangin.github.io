@@ -10,7 +10,7 @@ Pantallas tanto del galaxy fold hasta pantallas 4k se veran bien. </em>
 
  __JavaScrip - HTML - CSS - Bootstrap -Swiper__
 
-#__Como se penso la pagina__
+# __Como se penso la pagina__
 
 Lo primero fue la idea de se trataria esta pagina. Una pagina estatica, que se pueda modificar con las demas etapas de la carrera,
 Ya con la idea en la mente de una pagina de muestra de figuras impresas en 3D el proximo paso era pensarla para que sea lo mas modular posible,
