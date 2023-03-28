@@ -3,11 +3,14 @@
 Para este proyecto decidi hacer una pagina web de venta de figuras
 hechas con 2 modelos distintos de impresoras 3D
 
+<em> Todo es responsivo para todo tipo de pantallas desde 280px hasta 3840px
+Pantallas tanto del galaxy fold hasta pantallas 4k se veran bien. </em>
+
 # __Tecnologias usadas para esta pagina__
 
  __JavaScrip - HTML - CSS - Bootstrap -Swiper__
 
-__Como se penso la pagina__
+#__Como se penso la pagina__
 
 Lo primero fue la idea de se trataria esta pagina. Una pagina estatica, que se pueda modificar con las demas etapas de la carrera,
 Ya con la idea en la mente de una pagina de muestra de figuras impresas en 3D el proximo paso era pensarla para que sea lo mas modular posible,
@@ -37,13 +40,4 @@ Luego pense el diseño para pantallas 1920x1080.
 
 - Como ultimo detalle agregue los derechos de autor 
 
-<em> Todo es responsivo para todo tipo de pantallas desde 280px hasta 3840px
-Pantallas tanto del galaxy fold hasta pantallas 4k se veran bien. </em>
-
-
-__Modelos de Impresoras__
-
-Tenemos a disposicion dos modelos de impresoras las cuales trabajan con distintas tecnologias.
-    Una trabaja en resina, le da mayor calidad a los modelos, pero estan limitadas a un tamaño chico
-    Otra trabaja con filamente, esto permite hacer figuras de mayor tamaño.
 
