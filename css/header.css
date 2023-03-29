@@ -76,12 +76,6 @@ header .textos-header-abajo{  /*texto 2 Tamaño*/
         height: 82vh;
     }
 
-    .logo-presentacion img{
-        display: flex;
-        width: 90%;
-        max-width: 500px;
-    }
-
 
 } 
 
