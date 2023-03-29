@@ -27,11 +27,7 @@ html {
 /* ZOOM  PARA TODO EL CARRUSEL */
 
 
-@media (min-width: 280px) {
-  #carrusel {
-    zoom: ;
-  }
-}
+
 
 @media (min-width: 280px) {
   #carrusel {
@@ -98,6 +94,17 @@ body {
 }
 
 
+
+/* .section-titulo {                                  intente con esto
+  font-size: calc(5em + 1vw);
+  color: var(--letras-titulo);
+  padding: 2rem 0;
+}
+
+.section-subtitulo {
+  font-size: calc(1.8em + 1vw);
+  color: var(--letras-subtitulo);
+} */
 
 
 /* ----- TITULO RESPONSIVO ----- */
