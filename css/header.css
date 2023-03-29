@@ -55,11 +55,17 @@ header .textos-header-abajo{  /*texto 2 Tamaño*/
 -----------------------  Respónsive  ---------------------------
 ----------------------------------------------------------------*/
 
-
+@media screen and (max-height: 1100px){
+    .logo-presentacion img{
+        display: flex;
+        height: 90%;
+    }
+}
 
 @media screen and (max-width: 1000px){
     .textos-header{
         display: none;
+        
     }
     
     .logo-presentacion{
