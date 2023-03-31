@@ -21,7 +21,7 @@ header{
 
 .textos-header{
     display: flex;
-    height: 60vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/

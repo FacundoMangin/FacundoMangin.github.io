@@ -134,7 +134,7 @@
     }
 
     .contenidos-textos p{ 
-        font-size: 2em;                                          /*centra los parrafos que estan debajo de los titulos*/
+        font-size: 2.5em;                                          /*centra los parrafos que estan debajo de los titulos*/
         text-align: center;
         padding: 0px 0px 0px 0px;
     }

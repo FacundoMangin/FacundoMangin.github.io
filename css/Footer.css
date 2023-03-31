@@ -24,8 +24,6 @@
  .contenedor-footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;  
     align-items: center;  
     padding: 5% 0 5% 0;
 } 
@@ -62,13 +60,22 @@ footer{
 
 /* --------------------------tarjetas------------------------ */
 
+.contenedor-footer .red-social{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .contenedor-redes-sociales{
     display: flex;
+    padding: 0 20em 0 20em;
+    justify-content: center;
+    align-items: center;
     margin-top: 2%;
+    width: 100%;
 }
 
 article{
-    text-align: center;
     width: fit-content;
     margin: 3.5%;
     padding: 2%;
@@ -83,7 +90,6 @@ article{
 .contenedor-footer .red-social p{
 
     color: var(--color-nombres);
-    text-align: center;
     font-size:20px;
     margin-bottom: 25px;
 
@@ -92,14 +98,12 @@ article{
 .contenedor-footer .red-social h2{
 
     color: var(--color-letras);
-    text-align: center;
     font-size:40px;
     margin-bottom: 20px;
 
 }
 
 .contenedor-footer .red-social a{
-    display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45Px;
@@ -107,7 +111,6 @@ article{
     font-size: 20px;
     color: var(--color-logo);
     margin: 0px 2% 0px 2%;
-    text-align: center;
     transition: all 300ms ease;
     border-radius: 50%;
     border:2px solid var(--color-logo);
@@ -119,19 +122,9 @@ article{
     transform: scale(1.2);
 }
 
-.ubicacion iframe {
-    margin: 10px;
-    padding-top: 25px;
-    width: 70%;
-    height: 50%;
-    
+.red-social img{
+   width: 80%;
 }
-
-.logo img{
-    width: 50%;
-}
-
-
 
 
 #facebook-color{
@@ -216,6 +209,18 @@ article{
         font-size: 2vw;
     }
 
+    .contenedor-redes-sociales{
+        padding: 0px;
+        padding: 0 3% 0 3%;
+    }
+
+    article{
+        padding: 5% 0 5% 0;
+    }
+    .red-social img{
+        width: 50%;
+     }
+
 }  
 
 /*--------------------------------------------------------------------------------------------------*/
@@ -232,10 +237,11 @@ article{
 
     .contenedor-redes-sociales{
         flex-direction: column;
+        padding:  0px;
     }
 
     .contenedor-footer .red-social h2{
-        font-size:10vw;
+        font-size:8vw;
     
     }
 
