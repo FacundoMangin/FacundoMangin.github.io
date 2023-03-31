@@ -138,10 +138,18 @@ header .textos-header-abajo{  /*texto 2 Tamaño*/
     .textos-header {
       zoom: 1.7;
     }
+    .textos-header{
+        height: 45vh;
+    }
   }
   
   @media (min-width: 3840px) {
     .textos-header {
       zoom: 2.5;
     }
+
+    .textos-header{
+        height: 30vh;
+    }
+    
   }
