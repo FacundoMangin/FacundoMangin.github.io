@@ -100,7 +100,6 @@ body {
   color: var(--letras-titulo);
   padding: 2rem 0;
 }
-
 .section-subtitulo {
   font-size: calc(1.8em + 1vw);
   color: var(--letras-subtitulo);

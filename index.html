@@ -25,18 +25,15 @@
     
     <!-- pagina de google fonts  https://fonts.google.com/specimen/Lobster/tester-->
     
-    <!-- letra Concert -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
      <!-- letra Rubik -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <!-- letra Style  font-family: 'Crete Round'  -->
+
+    <!-- letra Style  font-family: 'Lilita One'  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     
     
     <title>Commander 3D</title>
@@ -46,24 +43,32 @@
 
 <body>
     <header>
-        <nav>
-            <div class="desplegable">   
-                <div class="dropdown">
-                    <button class="btn" style="background: #ffffff;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-bars" style="font-size: 2.9vh; color: #6b0171; display: block;"></i>
-                    </button>
-                    <ul class="dropdown-menu bg-body " style="font-size: 2.5vh;">
-                        <li><a class="dropdown-item" style="color: #6b0171" href="#diferencia-resina-filamento">Servicios</a></li>
-                        <li><a class="dropdown-item" style="color: #6b0171" href="#carrusel">Productos</a></li>
-                        <li><a class="dropdown-item" style="color: #6b0171" href="#footer">Contactos</a></li>
-                    </ul>
-                </div>
-            </div> 
-              <!-- Navegacion de la pagina -->
-            <a href="#diferencia-resina-filamento">Servicios</a>
-            <a href="#carrusel">Productos</a>
-            <a href="#footer">Contactos</a>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <div class="titulo-logo">
+              <a class="text-white text-commander" href="#">Commander 3D</a>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="#diferencia-resina-filamento">Servicios</a>
+                    </li>           
+                    <li class="nav-item">
+                      <a class="nav-link" href="#carrusel">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#footer">Contactos</a>
+                    </li>
+                </ul>    
+              </div>
+          </div>
+        </nav>   
+
         <section class="textos-header">   
             <h1>Commander 3D</h1>
             <h2>Impresiones en Resina y Filamento</h2>
@@ -71,6 +76,7 @@
         <div class="logo-presentacion">
             <img src="imagenes/logo_principal.png" alt="">
         </div>
+
         <!-- formato de ola sacado de pagina web  link: https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections  -->
     </header>
 
