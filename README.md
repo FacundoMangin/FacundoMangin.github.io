@@ -1,7 +1,7 @@
 ![Commander 3D](banner.jpg)
 
-Para este proyecto decidi hacer una pagina web de venta de figuras
-hechas con 2 modelos distintos de impresoras 3D
+Para este proyecto decidí realizar una pagina web de venta de figuras en 3D
+hechas con dos modelos distintos de impresoras.
 
 <em> Todo es responsivo para todo tipo de pantallas desde 280px hasta 3840px</em>
 
