@@ -15,9 +15,16 @@ hechas con dos modelos distintos de impresoras.
 
 # __Como se penso la pagina__
 
-Lo primero fue la idea de se trataria esta pagina. Una pagina estatica, que se pueda modificar con las demas etapas de la carrera,
-Ya con la idea en la mente de una pagina de muestra de figuras impresas en 3D el proximo paso era pensarla para que sea lo mas modular posible,
-para que al trabajar en ella pueda tener facilidad de todo a la hora de buscar codigo.
+Lo primero fue la idea; de que se trataria esta pagina. 
+
+Una pagina que se pueda modificar con las demas etapas de la carrera.
+
+Teniendo eso en mente, el siguiente paso fue pensar en util que no solo sea un proyecto para la carrera, sino que me sirva en terminos personales.
+
+Pense en una pagina que muestre figuras hechas por mi y mi compañero impresas en 3D.
+
+Para esto se penso para que sea lo mas modular posible, solo utilizando HTML y CSS para que al trabajar en ella pueda tener facilidades de todo tipo a la hora de buscar y modificar codigo.
+
 Luego pense el diseño para pantallas 1920x1080.
 
 - Lo primero que se hizo fue un header con una navegacion sencilla y que ambos esten conbinados.
