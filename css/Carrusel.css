@@ -11,10 +11,13 @@
 
 :root {
   --white: #ffffff;
-  --bg: #f5f5f5;
+  --bg: #f3e4f5;
+  --border: #f8d1fd;
   --black: #000000;
   --letras-titulo: blueviolet;
   --letras-subtitulo: rgb(198, 53, 255);
+  --Borde-boton: #d6d6d6;
+
 }
 
 html {
@@ -78,13 +81,13 @@ html {
 }
 
 .section-titulo {
-  font-size: 3.5vw;
+  font-size: 7rem;
   color: var(--letras-titulo);
   padding: 2rem 0;
 }
 
 .section-subtitulo {
-  font-size: 1.5vw;
+  font-size: 3.5rem;
   color: var(--letras-subtitulo);
 }
 
@@ -92,38 +95,15 @@ html {
 
 /* ----- TITULO RESPONSIVO ----- */
 
-@media screen and (max-width: 1280px){
-  .section-titulo{
-      font-size:7vw;     
-  }
-  
-  .section-subtitulo {
-    font-size: 4vw;
-  }
 
-}
-
-@media screen and (max-width: 660px){
+@media screen and (max-width: 420px){
 
   .section-titulo{
-    font-size: 14vw;     
+    font-size: 5rem;     
   }
 
   .section-subtitulo {
-    font-size: 8vw;
-  }
-
-}
-
-
-@media screen and (max-width: 330px){
-
-  .section-titulo{
-    font-size: 16vw;     
-  }
-
-  .section-subtitulo {
-    font-size: 9.5vw;
+    font-size: 3rem;
   }
 
 }
@@ -138,8 +118,8 @@ html {
 
 #carrusel {
   padding: 4rem 0;
-  background-color: #f3e4f5;
-  border-top: 5px solid #f8d1fd;
+  background-color: var(--bg);
+  border-top: 5px solid var(--border);
 }
 
 @media (max-width:1440px) {
@@ -312,50 +292,38 @@ html {
   background: var(--primary);
 }
 
+
+
 .boton{
   display: flex;
   justify-content: center;
+  font-family: 'Lilita One';
 }
 
 .boton > a{
   text-decoration: none;
 	background: var(--letras-titulo);
-	color: #fff;
+	color: var(--white);
 	padding: 12px 45px;
 	margin: 15px;
 	text-transform: uppercase;
-	border: 2px solid #d6d6d6;
+	border: 3px solid var(--Borde-boton);
+  box-shadow: 6px 2px 6px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  font-size: 1.2vw;
+  font-size: 3rem;
 }
 
+
 .boton > a:hover{
-  color: #fff;
+  color:var(--white);
 	transform: scale(1.04);
 }
 
+@media screen and (max-width: 300px){
 
-/* ----- BOTON RESPONSIVO ----- */
-
-@media screen and (max-width: 1280px){
   .boton > a{
-    font-size: 4vw;
-  }
-}
-
-@media screen and (max-width: 660px){
-  .boton > a{
-    font-size: 4vw;
+    font-size: 2rem;
   }
 
 }
 
-
-@media screen and (max-width: 500px){
-
-  .boton > a{
-    font-size: 11vw;
-  }
-}
-
-/* ----- FINAL BOTON ----- */

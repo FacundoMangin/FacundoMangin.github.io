@@ -3,16 +3,16 @@
 /*---------------------------------------------------------------------------------------- */
 
 :root{
-    --color-fondo-footer: #150017;                                      /* fondo-footer  */
+    --color-fondo-footer: #17001a;                                      /* fondo-footer  */
     --color-borde-margen-arriba: white;                                 /* borde-margen-arriba  */
     --color-logo:white;                                                 /* logo  */
     --color-facebook: rgb(0, 89, 255);                                  /* facebook  */
-    --color-instagram: rgb(212, 52, 212);                               /* instagram  */
+    --color-instagram: #d434d4;                               /* instagram  */
     --color-whatsapp: rgb(25, 160, 13);                                 /* whatsapp  */
-    --color-mail: rgb(77, 120, 185);                                    /* mail  */
+    --color-mail: #4d78b9;                                    /* mail  */
     --color-letras: white;   
     --color-nombres: rgb(206, 206, 206);                                           /* letra */
-    --color-tarjetas: rgba(92, 0, 95, 0.685);
+    --color-tarjetas: #5c005faf;
 }
 
 
@@ -44,11 +44,11 @@ footer{
 }
 
 .footer-logo h1{
-    font-size: 5vw;
+    font-size: 8rem;
 }
 
 .footer-logo p{
-    font-size: 1.5vw;
+    font-size: 2rem;
 }
 
 
@@ -150,19 +150,7 @@ article{
 /*--------------------------------------------------------------
 -----------------------  Respónsive  ---------------------------
 ----------------------------------------------------------------*/
-@media (min-width: 1440px) {
-    .contenedor-redes-sociales {
-      zoom: 1.2;
-    }
 
-    .developer .derechos-de-autor{
-        zoom: 1.2;
-    }
-
-    .derechos-de-autor{
-        zoom: 1.2;
-    }
-  }
 
   /*----------------------------------------------------------------*/
   
@@ -202,14 +190,7 @@ article{
 
 
  @media screen and (max-width: 1281px){
-    
-    .footer-logo h1{
-        font-size: 5.5vw;
-    }
-    
-    .footer-logo p{
-        font-size: 2vw;
-    }
+
 
     .contenedor-redes-sociales{
         padding: 0px;
@@ -227,47 +208,37 @@ article{
 
 /*--------------------------------------------------------------------------------------------------*/
 
- @media screen and (max-width: 750px){
-    
-    .footer-logo h1{
-        font-size: 13vw;
-    }
-    
-    .footer-logo p{
-        font-size: 5vw;
-    }
+ @media screen and (max-width: 767px){
 
     .contenedor-redes-sociales{
         flex-direction: column;
         padding:  0px;
     }
 
-    .contenedor-footer .red-social h2{
-        font-size:8vw;
-    
+} 
+
+@media screen and (max-width: 550px){
+
+    .footer-logo h1{
+        font-size: 5rem;
     }
-
-    .contenedor-footer .red-social p{
-        font-size:4.5vw;
-
+    
+    .footer-logo p{
+        font-size: 1.5rem;
     }
 
 } 
-
-
-
     
 /*--------------------------------------------------------------------------------------------------*/    
     
  @media screen and (max-width: 325px){
+    
     .footer-logo h1{
-        font-size: 14vw;
+        font-size: 3.5rem;
     }
     
-    .footer-logo p{
-        font-size: 6vw;
-    }
-    
+
+
     .contenedor-footer .red-social a{
         width: 35px;
         height: 35Px;
