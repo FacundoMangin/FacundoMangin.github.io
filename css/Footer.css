@@ -32,6 +32,7 @@ footer{
     background: var(--color-fondo-footer);  
     border-top: 5px solid var(--color-borde-footer);
     border-bottom: 5px solid var(--color-borde-footer);
+    font-family: 'Rubik';
 }
 
 
@@ -77,7 +78,7 @@ footer{
 
 article{
     width: fit-content;
-    max-width: 26em;
+    max-width: 28em;
     margin: 3.5%;
     padding: 2%;
     border-radius: 10px;

@@ -9,9 +9,6 @@
   --color-borde-footer: rgba(92, 0, 95, 0.685);
 }
 
-body{
-    font-family: 'Concert One'; /*fuente de la letra*/
-}
 
 .contenedor{
     width: 80%;

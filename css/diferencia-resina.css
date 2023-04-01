@@ -23,6 +23,7 @@
     text-align:center;
     font-size:7em;
     border-radius:10px;
+    font-family: 'Rubik';
     
 }
 
@@ -41,6 +42,7 @@
 .sobre-nosotros .contenidos-textos{
     width: 48%;
 }
+
 
 .contenidos-textos{
     display: flex;    
@@ -70,7 +72,7 @@
     padding: 0px 0px 30px 15px;
     font-size: 1.4vw;
     text-align: justify;
-    font-family: 'Crete Round';
+    font-family: 'Rubik';
 }
 
 .contenedor-sobre-nosotros .imagen-resina{
