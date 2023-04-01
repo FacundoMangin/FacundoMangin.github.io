@@ -27,21 +27,15 @@
 
 ::-webkit-scrollbar {
     width: 1.3rem;
+    
   }
   
   ::-webkit-scrollbar-thumb {
-    border-radius: 1rem;
-    background: #810daf;
     transition: all 0.5s ease-in-out;
+    background: #e100ff;
+    border-radius: 1rem;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
-    background: #4c0169;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f9f9f9;
-  }
 
 
 .derechos-de-autor{
