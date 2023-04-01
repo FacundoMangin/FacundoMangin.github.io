@@ -15,9 +15,7 @@ hechas con dos modelos distintos de impresoras.
 
 # __Como se penso la pagina__
 
-Lo primero fue la idea; de que se trataria esta pagina. 
-
-Una pagina que se pueda modificar con las demas etapas de la carrera.
+Lo primero fue la idea. De que se trataria esta pagina. Una pagina que se pueda modificar con las demas etapas de la carrera.
 
 Teniendo eso en mente, el siguiente paso fue pensar en util que no solo sea un proyecto para la carrera, sino que me sirva en terminos personales.
 
@@ -27,10 +25,10 @@ Para esto se penso para que sea lo mas modular posible, solo utilizando HTML y C
 
 Luego pense el diseño para pantallas 1920x1080.
 
-- Lo primero que se hizo fue un header con una navegacion sencilla y que ambos esten conbinados.
+- Lo primero que se hizo fue un header con una navegacion sencilla y que ambos esten combinados.
 
 - Luego se penso en una seccion para mostrar una pequeña diferencia entre las dos tecnologias de impresion.
-    Para esto se uso el display flex, en varias clases
+    - Para esto se uso el display flex, en varias clases
 
 - Otra de las secciones era un carrusel para mostrar algunas de las figuras.
     Para lograr este carrusel use la libreria de swiper y otra de ionicons para los iconos de flecha bajo el carrusel que despues servirian para
