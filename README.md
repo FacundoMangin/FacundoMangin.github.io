@@ -21,9 +21,9 @@ Teniendo eso en mente, el siguiente paso fue pensar en util que no solo sea un p
 
 Pense en una pagina que muestre figuras hechas por mi y mi compañero impresas en 3D.
 
-Para esto se penso para que sea lo mas modular posible, solo utilizando HTML y CSS para que al trabajar en ella pueda tener facilidades de todo tipo a la hora de buscar y modificar codigo.
+- Para esto se penso para que sea lo mas modular posible, solo utilizando HTML y CSS para que al trabajar en ella pueda tener facilidades de todo tipo a la hora de buscar y modificar codigo.
 
-Luego pense el diseño para pantallas 1920x1080.
+# __Luego pense el diseño para pantallas de escritorio <em>(Sabiendo que no era lo ideal)</em>.__
 
 - Lo primero que se hizo fue un header con una navegacion sencilla y que ambos esten combinados.
 
@@ -38,11 +38,13 @@ Luego pense el diseño para pantallas 1920x1080.
     - Tambien use display flex
 
 
-- Por ultimo hice el footer, donde coloque como titulo el nombre de la pagina y una breve informacion sobre los pedidos
-    use una de las tarjetas hechas en una pactica que me gusto mucho, a la cual le di mi propio estilo y rellene con mis datos personales
-    y agregue una tarjeta para mi compañero por que mi idea es usar esta pagina para que las personas vean lo que hacemos.
-    Agregue unos botones para las redes personales y contactos de cada uno (Solo las mias contienen datos, decidi no poner las de mi compañero por privacidad)
-    y por ultimo agregue un iframe con mi direccion.
+- Por ultimo hice el footer, donde coloque como titulo el nombre de la pagina y una breve informacion sobre los pedidos.
+    
+    Use una de las tarjetas hechas en una pactica que me gusto mucho, a la cual le di mi propio estilo y rellene con mis datos personales
+    y agregue una tarjeta para mi compañero, por que mi idea es usar esta pagina para que las personas vean nuestro trabajo.
+    
+    Agregue unos botones para las redes sociales y contactos de cada uno (Solo las mias contienen datos, decidi no poner las de mi compañero por privacidad).
+ 
     - para todo esto se uso display flex y flex direction.
 
 
