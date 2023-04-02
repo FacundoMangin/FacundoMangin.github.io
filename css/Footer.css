@@ -63,21 +63,6 @@ footer{
 
 /* --------------------------tarjetas------------------------ */
 
-.contenedor-footer .red-social{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.contenedor-redes-sociales{
-    display: flex;
-    padding: 0 20em 0 20em;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    width: 100%;
-}
-
 article{
     width: fit-content;
     max-width: 28em;
@@ -90,6 +75,22 @@ article{
     -moz-box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
     box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
   }
+
+.contenedor-footer .red-social{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-redes-sociales{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20em 0 20em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 100%;
+}
   
 
 .contenedor-footer .red-social p{
@@ -199,7 +200,6 @@ article{
 
     .contenedor-redes-sociales{
         padding: 0px;
-        padding: 0 3% 0 3%;
     }
 
     article{
@@ -213,14 +213,7 @@ article{
 
 /*--------------------------------------------------------------------------------------------------*/
 
- @media screen and (max-width: 767px){
 
-    .contenedor-redes-sociales{
-        flex-direction: column;
-        padding:  0px;
-    }
-
-} 
 
 @media screen and (max-width: 550px){
 
