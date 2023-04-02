@@ -12,28 +12,29 @@
 
 
 header{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-size: cover;
     background: linear-gradient(to right, #000000be, #000000be), url(../imagenes/purple.jpg) ;
     background-size: 100% 100%;
     
 }
 .textos-header{
-    display: flex;
-    height: 78vh;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
     color: var(--color-titulo);
     font-family: 'Lilita One';
 }
     
 
-.textos-header h1{  /*texto 1 Tamaño*/
-    font-size: 7rem;   
+header .textos-header h1{  /*texto 1 Tamaño*/
+    font-size: 7vw;   
 }
 
 .textos-header h2{  /*texto 2 Tamaño*/
-    font-size: 5rem;
+    font-size: 2vw;
 }
 
 
@@ -50,17 +51,8 @@ header{
 
 
 /* ------------ Celulares chicos ejemplo Galaxy Fold-------------- */
-@media screen and (max-width: 1100px){
-    .textos-header h1{  /*texto 1 Tamaño*/
-        font-size: 5em;
-        
-    }
-    
-    .textos-header h2{  /*texto 2 Tamaño*/
-        font-size: 3em;
-    }
 
-}
+
 
 @media screen and (max-width: 500px){
     header{
@@ -95,22 +87,5 @@ header{
 
 }
 
-@media (min-width: 1440px) {
-    .textos-header {
-      zoom: 1.2;
-    }
-  }
-  
-  @media (min-width: 2560px) {
-    .textos-header {
-      zoom: 1.7;
-      height: 45vh;
-    }
-  }
-  
-  @media (min-width: 3840px) {
-    .textos-header {
-      zoom: 2.5;
-      height: 30vh;
-    }   
-  }
+
+

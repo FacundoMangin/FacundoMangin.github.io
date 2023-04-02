@@ -10,71 +10,71 @@
 /*----------------------------------------------------------------------- */
 
 .navbar{
-    background: var(--fondo);
-    -webkit-box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
-    -moz-box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
-    box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
-    }
-
-    
-    .navbar-nav a{
-        font-size: 2em;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: var(--letras);
-        font-family: 'Rubik';
-    }
-
-    .text-commander{
-        display: flex;
-        font-size: 3em;
-        text-transform: uppercase;
-        color: var(--letras);
-        font-family: 'Lilita One';
-        text-decoration: none
-    }
+background: var(--fondo);
+-webkit-box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
+-moz-box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
+box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
+}
 
 
-    .navbar-nav a:hover{
-        color: var(--hover);
-    }
-    
-    .navbar-light .navbar-brand{
-        color: black;
-        font-size: 25px;
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: 2px;
-    }
-    
+.navbar-nav a{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--letras);
+    font-family: 'Rubik';
+}
+
+.text-commander{
+    display: flex;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: var(--letras);
+    font-family: 'Lilita One';
+    text-decoration: none
+}
 
 
-  
-  @media screen and (max-width: 767px){
-    .text-commander{
-        font-size: 2.5em;
-    }
-    .navbar-nav a{
-        font-size: 1.5em;
-    }
-  }
+.navbar-nav a:hover{
+    color: var(--hover);
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
 
 
-  @media (min-width: 1440px) {
-    nav {
-      zoom: 1.2;
-    }
-  }
-  
-  @media (min-width: 2560px) {
-    nav {
-      zoom: 1.7;
-    }
-  }
-  
-  @media (min-width: 3840px) {
-    nav {
-      zoom: 2.5;
-    }
-  }
+
+
+@media screen and (max-width: 767px){
+.text-commander{
+    font-size: 2.5em;
+}
+.navbar-nav a{
+    font-size: 1.5em;
+}
+}
+
+
+@media (min-width: 1440px) {
+nav {
+  zoom: 1.2;
+}
+}
+
+@media (min-width: 2560px) {
+nav {
+  zoom: 1.7;
+}
+}
+
+@media (min-width: 3840px) {
+nav {
+  zoom: 2.5;
+}
+}
 
