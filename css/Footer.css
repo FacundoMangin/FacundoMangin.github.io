@@ -46,11 +46,11 @@ footer{
 }
 
 .footer-logo h1{
-    font-size: 8rem;
+    font-size: clamp(4rem, 4.5vw, 4.5vw);
 }
 
 .footer-logo p{
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 1.3vw, 1.3vw);
 }
 
 
@@ -117,7 +117,7 @@ article{
     font-size: 20px;
     color: var(--color-logo);
     margin: 0px 2% 0px 2%;
-    transition: all 300ms ease;
+    transition: all 400ms ease;
     border-radius: 50%;
     border:2px solid var(--color-logo);
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
@@ -179,14 +179,6 @@ article{
 
 @media screen and (max-width: 550px){
 
-    .footer-logo h1{
-        font-size: 5rem;
-    }
-    
-    .footer-logo p{
-        font-size: 1.5rem;
-    }
-
     article{
         padding: 2.5em 2% 3.5em 2%;
       }
@@ -197,12 +189,6 @@ article{
     
  @media screen and (max-width: 325px){
     
-    .footer-logo h1{
-        font-size: 3.5rem;
-    }
-    
-
-
     .contenedor-footer .red-social a{
         width: 35px;
         height: 35Px;
@@ -224,23 +210,22 @@ article{
   /*-------------------------Pantallas Grandes-------------------------*/
   
   @media (min-width: 2560px) {
-    footer{
+    article{
       zoom: 1.7;
     }
-
-    .derechos-de-autor{
+    .developer{
         zoom: 1.7;
     }
   }
   
   @media (min-width: 3840px) {
-    footer {
+    article {
       zoom: 2.5;
     }
-
-    .derechos-de-autor{
-        zoom: 2.5;
+    .developer{
+        zoom: 1.7;
     }
+
   }
 
 

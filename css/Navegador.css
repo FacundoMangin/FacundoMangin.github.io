@@ -37,6 +37,7 @@ box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
 
 .navbar-nav a:hover{
     color: var(--hover);
+    transition: all 300ms ease-in-out;;
 }
 
 .navbar-light .navbar-brand{
