@@ -10,9 +10,9 @@
     --color-instagram: #d434d4;                               /* instagram  */
     --color-whatsapp: rgb(25, 160, 13);                                 /* whatsapp  */
     --color-mail: #4d78b9;                                    /* mail  */
-    --color-letras: white;   
+    --color-letras: #ffffffc9;   
     --color-nombres: rgb(206, 206, 206);                                           /* letra */
-    --color-borde-articulo: 2px solid rgb(92, 92, 92);
+    --color-borde-articulo: 2px solid #ffffffc9;
     --color-tarjetas: #5c005faf;
     --color-borde-imagen: 4px solid white;
 }
