@@ -227,11 +227,19 @@ article{
     footer{
       zoom: 1.7;
     }
+
+    .derechos-de-autor{
+        zoom: 1.7;
+    }
   }
   
   @media (min-width: 3840px) {
     footer {
       zoom: 2.5;
+    }
+
+    .derechos-de-autor{
+        zoom: 2.5;
     }
   }
 
