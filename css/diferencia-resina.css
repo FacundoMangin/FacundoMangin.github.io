@@ -126,8 +126,8 @@
     .contenedor-sobre-nosotros .imagen-impresora-filamento{         /*Muestra la imagen de la impresora de filamento*/
         display: flex;
         width: 100%;
-        min-width: 350px;
-        max-width: 450px;
+        min-width: 150px;
+        max-width: 200px;
         justify-content: center;
         align-items: center;
         
