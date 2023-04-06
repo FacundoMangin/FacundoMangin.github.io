@@ -23,7 +23,7 @@ Imagine una pagina que muestre figuras impresas en 3D hechas por mi y mi compañ
 
 - Para esto decidi que sea lo mas modular posible utilizando solo HTML y CSS para que al trabajar en ella pueda tener facilidades de todo tipo a la hora de buscar y modificar codigo.
 
-# __Luego pense el diseño para pantallas de escritorio.__ <em>(Sabiendo que no era lo ideal)</em>
+## __Luego pense el diseño para pantallas de escritorio.__ <em> (Sabiendo que no era lo ideal)</em>
 
 - Lo primero que se hizo fue un header con una navegacion simple.
 
