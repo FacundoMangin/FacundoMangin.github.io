@@ -31,41 +31,6 @@ html {
 
 
 
-@media (min-width: 280px) {
-  #carrusel {
-    zoom: 0.7;
-  }
-}
-
-@media (min-width: 1000px) {
-  #carrusel {
-    zoom: 0.7;
-  }
-}
-
-@media (min-width: 1280px) {
-  #carrusel {
-    zoom: 0.9;
-  }
-}
-
-@media (min-width: 1440px) {
-  #carrusel {
-    zoom: 1.2;
-  }
-}
-
-@media (min-width: 2560px) {
-  #carrusel {
-    zoom: 1.7;
-  }
-}
-
-@media (min-width: 3840px) {
-  #carrusel {
-    zoom: 2.5;
-  }
-}
 
 /* ---------------------------------------------------- */
 
@@ -81,13 +46,13 @@ html {
 }
 
 .section-titulo {
-  font-size: 7rem;
+  font-size: clamp(4rem, 7rem, 15vw);
   color: var(--letras-titulo);
   padding: 2rem 0;
 }
 
 .section-subtitulo {
-  font-size: 3.5rem;
+  font-size:clamp(2rem, 3.5rem, 7vw);
   color: var(--letras-subtitulo);
 }
 
@@ -96,17 +61,7 @@ html {
 /* ----- TITULO RESPONSIVO ----- */
 
 
-@media screen and (max-width: 420px){
 
-  .section-titulo{
-    font-size: 5rem;     
-  }
-
-  .section-subtitulo {
-    font-size: 3rem;
-  }
-
-}
 
 /* ----- FINAL LETRAS TITULO ----- */
 
@@ -139,7 +94,6 @@ html {
     height: 45rem;
   }
 }
-
 
 .tranding-slide {
   width: 37rem;
@@ -310,7 +264,7 @@ html {
 	border: 3px solid var(--Borde-boton);
   box-shadow: 6px 2px 6px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  font-size: 3rem;
+  font-size: clamp(1.4rem, 3rem, 10vw);
   transition: all 300ms ease-in-out;;
 }
 
@@ -320,10 +274,10 @@ html {
 	transform: scale(1.04);
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 420px){
 
   .boton > a{
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
 }

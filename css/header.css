@@ -30,11 +30,11 @@ header{
     
 
 header .textos-header h1{  /*texto 1 Tamaño*/
-    font-size: 7vw;   
+    font-size: clamp(6rem, 12rem, 9vw);   
 }
 
 .textos-header h2{  /*texto 2 Tamaño*/
-    font-size: 2vw;
+    font-size: clamp(2rem, 4rem, 4vw);
 }
 
 
@@ -51,6 +51,7 @@ header .textos-header h1{  /*texto 1 Tamaño*/
 
 
 /* ------------ Celulares chicos ejemplo Galaxy Fold-------------- */
+
 
 
 
@@ -83,7 +84,7 @@ header .textos-header h1{  /*texto 1 Tamaño*/
         width: 100%;
         max-width: 500px;
 
-    } 
+    }
 
 }
 
