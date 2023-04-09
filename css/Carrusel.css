@@ -58,17 +58,6 @@ html {
 
 
 
-/* ----- TITULO RESPONSIVO ----- */
-
-
-
-
-/* ----- FINAL LETRAS TITULO ----- */
-
-
-
-
-
 
 
 #carrusel {
@@ -77,6 +66,11 @@ html {
   border-top: 5px solid var(--border);
 }
 
+@media (max-width: 280px) {
+  #carrusel {
+    zoom: 0.7;
+  }
+}
 @media (max-width:1440px) {
   #carrusel {
     padding: 7rem 0;
