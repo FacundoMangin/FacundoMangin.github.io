@@ -4,13 +4,11 @@
 /* ------------------------- */
 
 body {
-     background-color: #f5c0df;
      background: linear-gradient(
        25deg,
        rgb(189, 155, 221),
        rgb(153, 33, 133)
      );
-     background-repeat: no-repeat;
      height: 100%;
      font-family: "Open Sans", sans-serif;
    }
@@ -29,6 +27,12 @@ body {
      text-align: right;
      padding: 20px;
    }
+
+   .escala img {
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+  }
+
    
    .escala img:hover {
     transform: scale(1.05);
