@@ -15,7 +15,7 @@ body {
 
    .container {
      margin: 5% auto;
-     padding-top: 20px;
+     padding: 20px 20px;
      background-color: #fff;
      border-radius: 10px;
      overflow: hidden;
@@ -23,11 +23,6 @@ body {
      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
    }
    
-   .dropdown{
-     text-align: right;
-     padding: 20px;
-   }
-
    .escala img {
     border-radius: 10px;
     transition: all 300ms ease-in-out;
@@ -38,29 +33,7 @@ body {
     transform: scale(1.05);
   }
 
-
-  .ful-img{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(157, 2, 204, 0.192);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 99;
-}
-.ful-img span{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-.ful-img img{
-    width: 90%;
-    max-width: 600px;
-}
-  
+  .dropdown{
+    text-align: right;
+    margin: 4% 0px 0px 0px;
+  }
