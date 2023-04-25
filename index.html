@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
   <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <!-- Libreria efecto de aparicion AOS https://michalsnik.github.io/aos/ -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- pagina de google fonts  https://fonts.google.com/specimen/Lobster/tester-->
 
@@ -69,7 +71,10 @@
   </nav>
 
   <header>   
-      <section class="textos-header">   
+      <section class="textos-header" data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="100">>   
           <h1>Commander 3D</h1>
           <h2>Impresiones en Resina y Filamento</h2>
       </section> 
@@ -77,7 +82,6 @@
           <img src="imagenes/logo_principal.png" alt="">
       </div>
 
-      <!-- formato de ola sacado de pagina web  link: https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections  -->
   </header>
 
 
@@ -301,7 +305,7 @@
         </div>
       </div>
       <div class="boton">
-        <a href="galeria-impresion/galeria.html"> Mas Productos</a>
+        <a href="#"> Mas Productos</a>
       </div>
     </div>
   </section>
@@ -366,10 +370,18 @@
   </div>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
     <script src="./js/carrusel.js"></script>
+
+    <!-- Libreria efecto de aparicion AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 
 </body>
 </html>
