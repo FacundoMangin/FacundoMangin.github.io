@@ -3,7 +3,7 @@
 /*---------------------------------------------------------------------------------------- */
 
 :root{
-    --color-titulo: rgb(228, 228, 228);
+    --color-titulo: rgb(197, 197, 197);
   }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -26,7 +26,7 @@ header{
     flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
     color: var(--color-titulo);
     font-family: 'Lilita One';
-    text-shadow: 5px 5px 15px rgb(170, 19, 175);
+    text-shadow: 5px 5px 15px rgb(121, 19, 124);
 }
     
 
