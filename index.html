@@ -12,13 +12,13 @@
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  
-  <!-- Libreria efecto de aparicion AOS https://michalsnik.github.io/aos/ -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- pagina de google fonts  https://fonts.google.com/specimen/Lobster/tester-->
 
   <script src="https://kit.fontawesome.com/092fed5d7c.js" crossorigin="anonymous"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
   
     <!-- letra Rubik -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-
 
   <link rel="stylesheet" href="css/Main.css">
   <link rel="stylesheet" href="css/header.css">
@@ -47,7 +46,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <div class="titulo-logo">
-        <a class="text-white text-commander" >Commander 3D</a>
+        <a class="text-white text-commander">Commander 3D</a>
       </div>
       <div class="d-flex justify-content-end">
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,12 +70,7 @@
   </nav>
 
   <header>   
-      <section class="textos-header" 
-        data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="100">
-
+      <section class="textos-header">
           <h1>Commander 3D</h1>
           <h2>Impresiones en Resina y Filamento</h2>
       </section> 
@@ -87,14 +81,14 @@
   </header>
 
 
-  <section class="contenedor sobre-nosotros" id="diferencia-resina-filamento" data-aos="fade-up" data-aos-duration="3000">
+  <section class="contenedor sobre-nosotros" id="diferencia-resina-filamento">
       
     <h2 class="titulo-diferencia">Diferencia entre "Resina" y "Filamento"</h2>      <!--titulo -->
 
       <div class="contenedor-sobre-nosotros">     <!-- solo divide -->
-          <img src="imagenes/resina.png" alt="" class="imagen-resina" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="700" data-aos-duration="2500">
+          <img src="imagenes/resina.png" alt="" class="imagen-resina">
           <img src="imagenes/3Dprinter.png" alt="" class="imagen-about-us">  <!-- Imagen Artillery -->
-          <div class="contenidos-textos" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="700" data-aos-duration="2500">
+          <div class="contenidos-textos">
               <h3><span>1</span>Resina</h3>
               <p>Proporciona una resolución mayor que otras impresoras,
                   <br>es ideal para piezas más pequeñas con detalles y
@@ -110,7 +104,7 @@
   </section>  
 
 
-  <section id="carrusel" id="diferencia-resina-filamento" data-aos="fade-up" data-aos-duration="3000">
+  <section id="carrusel">
     <div class="contenedor">
       <div class="container">
         <h3 class="centrar_texto section-subtitulo">- Productos Populares -</h3>
@@ -315,7 +309,7 @@
   </section>
 
 
-  <footer id='footer' id="diferencia-resina-filamento" data-aos="fade-up" data-aos-duration="2000">
+  <footer id='footer'>
     <div class="contenedor contenedor-footer">
       <div class="footer-logo">
           <h1>Commander 3D</h1>
@@ -328,7 +322,7 @@
       
       <div class="contenedor-redes-sociales">
         
-        <article>
+        <article id="tarjeta-facundo">
           <div class="red-social" >
             <img src="./imagenes/avatar-iconn.jpg" alt="icono">
             <div>
@@ -344,8 +338,8 @@
           </div>
         </article>
 
-        <article>
-          <div class="red-social" >
+        <article id="tarjeta-ivo">
+          <div class="red-social">
             <img src="./imagenes/avatar-iconn.jpg" alt="icono">
               <div>
                   <h2>Filamento</h2>
@@ -382,10 +376,7 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     
     <script src="./js/carrusel.js"></script>
-
-    <!-- Libreria efecto de aparicion AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> AOS.init(); </script>
-
-</body>
+    <script src="./js/scroll-reveal.js"></script>
+    
+  </body>
 </html>

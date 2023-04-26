@@ -23,6 +23,7 @@ box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
     font-weight: bold;
     color: var(--letras);
     font-family: 'Rubik';
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .text-commander{
@@ -31,7 +32,8 @@ box-shadow: inset 7px 4px 38px -25px rgba(255,0,255,1);
     text-transform: uppercase;
     color: var(--letras);
     font-family: 'Lilita One';
-    text-decoration: none
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 
