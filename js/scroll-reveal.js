@@ -40,15 +40,6 @@ window.sr = ScrollReveal();
     distance: '200px',
     origin: 'ring'
   });
-
-  window.sr = ScrollReveal();
-  sr.reveal('.imagen-resina', {
-    delay: 0,
-    duration: 1000,
-    distance: '200px',
-    origin: 'ring'
-  });
-  
   
   window.sr = ScrollReveal();
   sr.reveal('.imagen-about-us', {
