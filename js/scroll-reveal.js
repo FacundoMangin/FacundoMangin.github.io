@@ -27,21 +27,24 @@ window.sr = ScrollReveal();
 
   window.sr = ScrollReveal();
   sr.reveal('.titulo-diferencia', {
-    duration: 1500,
+    delay: 0,
+    duration: 1000,
     distance: '400px',
     origin: 'top'
   });
 
   window.sr = ScrollReveal();
   sr.reveal('.contenidos-textos', {
-    duration: 1500,
+    delay: 0,
+    duration: 1000,
     distance: '400px',
     origin: 'ring'
   });
 
   window.sr = ScrollReveal();
   sr.reveal('.imagen-resina', {
-    duration: 1500,
+    delay: 0,
+    duration: 1000,
     distance: '400px',
     origin: 'ring'
   });
@@ -49,6 +52,7 @@ window.sr = ScrollReveal();
   
   window.sr = ScrollReveal();
   sr.reveal('.imagen-about-us', {
+    delay: 0,
     duration: 4000,
   });
 
@@ -63,7 +67,7 @@ window.sr = ScrollReveal();
 
   window.sr = ScrollReveal();
   sr.reveal('.boton', {
-    duration: 2000,
+    duration: 1500,
     rotate: {
         x: 0,
         y: 180,
@@ -74,19 +78,19 @@ window.sr = ScrollReveal();
 
 window.sr = ScrollReveal();
   sr.reveal('#footer', {
-    duration: 1200,
+    duration: 1000,
   });
 
 window.sr = ScrollReveal();
   sr.reveal('#tarjeta-facundo', {
-    duration: 2000,
+    duration: 1000,
     distance: '400px',
     origin: 'left'
 });
 
 window.sr = ScrollReveal();
   sr.reveal('#tarjeta-ivo', {
-    duration: 2000,
+    duration: 1500,
     distance: '400px',
     origin: 'ring'
   });
