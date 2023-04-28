@@ -67,11 +67,7 @@ body {
   }
 
   .lg-outer .lg-img-wrap {
-    background: linear-gradient(
-       25deg,
-       rgb(189, 155, 221),
-       rgb(153, 33, 133)
-     );
+    background: linear-gradient rgb(189, 155, 221);
   }
 
   .lg-backdrop{
