@@ -10,8 +10,8 @@
     <title>Comander 3D</title>
 
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="../css/galerias/lightbox.css">
     <link rel="stylesheet" href="../css/galerias/Galeria-general.css">
+    <link type="text/css" rel="stylesheet" href="../css/galerias/lightgallery.css" />
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -22,99 +22,68 @@
 
 </head>
 
-<body class="bg-light container-sm">
 
-    <div class="desplegable">
-        <div class="dropdown">
-            <button class="btn" style="background: #ffffff;" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <i class="fa-solid fa-bars fondo" style="font-size: 15px; color: #6b0171;"></i>
-            </button>
-            <ul class="dropdown-menu bg-dark bg-opacity-30">
-                <li><a class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/galeria.html">Impresiones Realizadas</a></li>
-                <li><a class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/Juego-calamar.html">Juego del Calamar</a></li>
-                <li><a class="dropdown-item" style="color: #ffffff" href="../index.html">Inicio</a></li>
-            </ul>
-        </div>
-    </div>
+<body class="bg-light container-sm">
+    <nav>
+         <div class="desplegable">
+              <div class="dropdown">
+                   <button class="btn" style="background: #ffffff;" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa-solid fa-bars fondo" style="font-size: 15px; color: #6b0171;"></i>
+                   </button>
+                   <ul class="dropdown-menu bg-dark bg-opacity-30">
+                        <li><a class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/galeria.html">Impresiones Realizadas</a></li>
+                        <li><a class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/Juego-calamar.html">Juego del Calamar</a></li>
+                        <li><a class="dropdown-item" style="color: #ffffff" href="../index.html">Inicio</a></li>
+                   </ul>
+              </div>
+         </div>
+    </nav>
 
 
     <div class="container">
-        <div class="jumbotron text-center">
-            <h1 class="display-4 fw-bold">Dragon Ball</h1>
-            <p class="lead">Si no encuentras el modelo que buscas puesde contactarte en cualquier momento <br>
-                con nosotros y haremos lo posible para tenerlo a disposicion.
-           </p>
-        </div>
+         <div class="jumbotron text-center">
+              <h1 class="display-4 fw-bold">Dragon Ball</h1>
+              <p class="lead">Si no encuentras el modelo que buscas puesde contactarte en cualquier momento
+                <br> con nosotros y haremos lo posible para tenerlo a disposicion.
+              </p>
+         </div>
     </div>
 
     <div class="container escala">
-        <div class="row">
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/goku-cults.png" data-lightbox="mygallery" data-title="Goku (N° 1)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/goku-cults.png" alt="" class="img-fluid"></a>
-            </div>
+         <div id="lightgallery">
+            <a href="../imagenes/galeria/Dragon-Ball/goku/goku-cults.png">
+                <img src="../imagenes/galeria/Dragon-Ball/goku/goku-cults.png" />
+            </a>
+                <a href="../imagenes/galeria/Dragon-Ball/vegeta/VegetanNoGokui-1.jpg">
+            <img src="../imagenes/galeria/Dragon-Ball/vegeta/VegetaNoGokui.jpg" />
+            </a>
+            <a href="../imagenes/galeria/Dragon-Ball/Freezer/freezer.jpg">
+                <img src="../imagenes/galeria/Dragon-Ball/Freezer/freezer.jpg"/>
+            </a>
+            <a href="../imagenes/galeria/Dragon-Ball/cell/cell-1.jpg">
+                <img src="../imagenes/galeria/Dragon-Ball/cell/cell.jpg"/>
+            </a>
+            <a href="../imagenes/galeria/Dragon-Ball/goku/goku.jpg">
+                <img src="../imagenes/galeria/Dragon-Ball/goku/goku.jpg"/>
+            </a>
+            <a href="../imagenes/galeria/Dragon-Ball/goku/goku-con-baston.jpg">
+                <img src="../imagenes/galeria/Dragon-Ball/goku/goku-con-baston.jpg" />
+            </a>
+            <a href="../imagenes/galeria/Dragon-Ball/goku/goku_shogun_v1.jpg">
+                <img src="../imagenes/galeria/Dragon-Ball/goku/goku_shogun_v1.jpg"/>
+            </a>
 
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/vegeta/VegetanNoGokui-1.jpg" data-lightbox="mygallery" data-title="Goku (N° 1)"><img
-                        src="../imagenes/galeria/Dragon-Ball/vegeta/VegetaNoGokui.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/Freezer/freezer.jpg" data-lightbox="mygallery" data-title="Ultra Instinto (N° 2)"><img
-                        src="../imagenes/galeria/Dragon-Ball/Freezer/freezer.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/cell/cell-1.jpg" data-lightbox="mygallery" data-title="Ultra Instinto (N° 2)"><img
-                        src="../imagenes/galeria/Dragon-Ball/cell/cell.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/Radar/radar.jpg" data-lightbox="mygallery" data-title="Ultra Instinto (N° 2)"><img
-                        src="../imagenes/galeria/Dragon-Ball/Radar/radar.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/goku.jpg" data-lightbox="mygallery" data-title="Ultra Instinto (N° 2)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/goku.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/goku-con-baston.jpg" data-lightbox="mygallery" data-title="Goku (N° 3)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/goku-con-baston.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/goku_shogun_v1.jpg" data-lightbox="mygallery" data-title="Goku Samurai (N° 4)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/goku_shogun_v1.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/sanix.jpg" data-lightbox="mygallery" data-title="Goku (N° 5)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/sanix.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/Shenron&Goku .jpg" data-lightbox="mygallery" data-title="Diorama (N° 6)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/Shenron&Goku .jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/super-saiyan.jpg" data-lightbox="mygallery" data-title="Super Saiyan (N° 7)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/super-saiyan.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/Dragon-Ball/goku/diorama.jpg" data-lightbox="mygallery" data-title="Diorama (N° 8)"><img
-                        src="../imagenes/galeria/Dragon-Ball/goku/diorama.jpg" alt="" class="img-fluid"></a>
-            </div>
-        </div>
+         </div>
     </div>
 
-    <script src="../js/galeria.js"></script>
+   <script src="../js/galeria.js"></script>
+   <script src="../js/lightgallery.min.js"></script>
 
-
+   <script type="text/javascript">
+         lightGallery(document.getElementById('lightgallery')); 
+     </script>
+    
 </body>
 
 </html>

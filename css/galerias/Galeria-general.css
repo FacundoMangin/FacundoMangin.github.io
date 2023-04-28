@@ -38,3 +38,53 @@ body {
     text-align: right;
     margin: 4% 0px 0px 0px;
   }
+
+  #lightgallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #lightgallery img{
+    width: clamp(4rem, 25.31rem, 85vw );
+  }
+
+  .lg-actions .lg-prev:after{
+    content: url(../../imagenes/prev.png) !important;
+  }
+
+  .lg-actions .lg-next:before{
+    content: url(../../imagenes/next.png) !important;
+  }
+
+  .lg-toolbar .lg-close::after {
+    content: url(../../imagenes/close.png) !important;
+    }
+
+  .lg-toolbar .lg-download:after{
+    content: url(../../imagenes/descargas.png) !important;
+  }
+
+  .lg-outer .lg-img-wrap {
+    background: linear-gradient(
+       25deg,
+       rgb(189, 155, 221),
+       rgb(153, 33, 133)
+     );
+  }
+
+  .lg-backdrop{
+    background: linear-gradient(
+       25deg,
+       rgb(189, 155, 221),
+       rgb(153, 33, 133)
+     );
+  }
+
+  body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object {
+    border: 3px solid white;
+
+  }
+
+

@@ -12,6 +12,7 @@
 
      <!-- Estilos CSS -->
      <link rel="stylesheet" href="../css/galerias/Galeria-general.css">
+     <link type="text/css" rel="stylesheet" href="../css/galerias/lightgallery.css" />
 
 
      <!-- bootstrap -->
@@ -54,49 +55,41 @@
      </div>
 
      <div class="container escala">
-          <div class="row">
-               <div class="col-lg-4 mb-3">
-                    <img src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid materialboxed" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></a>
-               </div>
+          <div id="lightgallery">
+               <a href="../imagenes/galeria/geishin.jpg">
+                    <img src="../imagenes/galeria/geishin.jpg" />
+                    </a>
+                    <a href="../imagenes/galeria/Vegeta-noGokui.jpg">
+                    <img src="../imagenes/galeria/Vegeta-noGokui.jpg" />
+                    </a>
+                    <a href="../imagenes/galeria/ironman.jpg">
+                    <img src="../imagenes/galeria/ironman.jpg"/>
+                    </a>
+                    <a href="../imagenes/galeria/goku.jpg">
+                    <img src="../imagenes/galeria/goku.jpg" />
+                    </a>
+                    <a href="../imagenes/galeria/juego.png">
+                    <img src="../imagenes/galeria/juego.png"/>
+                    </a>
+                    <a href="../imagenes/galeria/mate-DeadPool.png">
+                    <img src="../imagenes/galeria/mate-DeadPool.png" />
+                    </a>
+                    <a href="../imagenes/galeria/spiderman.png">
+                    <img src="../imagenes/galeria/spiderman.png"/>
+                    </a>
+                    <a href="../imagenes/galeria/pokeball.png">
+                    <img src="../imagenes/galeria/pokeball.png"/>
+                    </a>
 
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/goku.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/goku.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/ironman.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/ironman.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-               </div>
-
-               <div class="col-lg-4 mb-3">
-                    <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                              src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-               </div>
           </div>
      </div>
 
     <script src="../js/galeria.js"></script>
+    <script src="../js/lightgallery.min.js"></script>
+
+    <script type="text/javascript">
+          lightGallery(document.getElementById('lightgallery')); 
+      </script>
      
 </body>
 

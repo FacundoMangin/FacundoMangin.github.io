@@ -10,8 +10,8 @@
     <title>Comander 3D</title>
 
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="../css/galerias/lightbox.css">
     <link rel="stylesheet" href="../css/galerias/Galeria-general.css">
+    <link type="text/css" rel="stylesheet" href="../css/galerias/lightgallery.css" />
 
 
     <!-- bootstrap -->
@@ -44,57 +44,50 @@
 
     <div class="container">
         <div class="jumbotron text-center">
-            <h1 class="display-4">Juego del Calamar</h1>
+             <h1 class="display-4 fw-bold">Juego del Calamar</h1>
+             <p class="lead">Si no encuentras el modelo que buscas puesde contactarte en cualquier momento
+                <br> con nosotros y haremos lo posible para tenerlo a disposicion.
+             </p>
         </div>
-    </div>
+   </div>
 
-    <div class="container escala">
-        <div class="row">
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
+   <div class="container escala">
+        <div id="lightgallery">
+             <a href="../imagenes/galeria/geishin.jpg">
+                  <img src="../imagenes/galeria/geishin.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/Vegeta-noGokui.jpg">
+                  <img src="../imagenes/galeria/Vegeta-noGokui.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/ironman.jpg">
+                  <img src="../imagenes/galeria/ironman.jpg"/>
+                  </a>
+                  <a href="../imagenes/galeria/goku.jpg">
+                  <img src="../imagenes/galeria/goku.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/juego.png">
+                  <img src="../imagenes/galeria/juego.png"/>
+                  </a>
+                  <a href="../imagenes/galeria/mate-DeadPool.png">
+                  <img src="../imagenes/galeria/mate-DeadPool.png" />
+                  </a>
+                  <a href="../imagenes/galeria/spiderman.png">
+                  <img src="../imagenes/galeria/spiderman.png"/>
+                  </a>
+                  <a href="../imagenes/galeria/pokeball.png">
+                  <img src="../imagenes/galeria/pokeball.png"/>
+                  </a>
 
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
-
-            <div class="col-lg-4 mb-3">
-                <a href="../imagenes/galeria/geishin.jpg" data-lightbox="mygallery" data-title="gsgwsgsdgsgdsd"><img
-                        src="../imagenes/galeria/geishin.jpg" alt="" class="img-fluid"></a>
-            </div>
         </div>
-    </div>
+   </div>
 
+  <script src="../js/galeria.js"></script>
+  <script src="../js/lightgallery.min.js"></script>
 
-    <script src="../js/galeria.js"></script>
-
+  <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery')); 
+    </script>
+   
 </body>
 
 </html>
