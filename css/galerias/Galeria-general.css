@@ -50,6 +50,11 @@ body {
     width: clamp(4rem, 25.31rem, 85vw );
   }
 
+
+
+
+
+  /* ------------ ICONS ------------- */
   .lg-actions .lg-prev:after{
     content: url(../../imagenes/prev.png) !important;
   }
@@ -65,6 +70,37 @@ body {
   .lg-toolbar .lg-download:after{
     content: url(../../imagenes/descargas.png) !important;
   }
+  
+  #lg-actual-size:after {  /*Pantalla normal*/
+    content: url(../../imagenes/screen.png) !important;
+  }
+
+  #lg-zoom-out:after { /*ZOOM NEGATIVO*/
+    content: url(../../imagenes/zoom-out.png) !important;
+  }
+
+  #lg-zoom-out {
+    opacity: 1 !important;
+  }
+
+  #lg-zoom-in::after {  /*ZOOM pOSITIVO*/
+    content: url(../../imagenes/zoom-in.png) !important;
+  }
+
+  .lg-fullscreen:after {  /*PANTALLA COMPLETA*/
+    content: url(../../imagenes/expandir.png) !important;
+  }
+
+  .lg-autoplay-button:after { /*Presentar inicial*/
+    content: url(../../imagenes/play.png) !important;
+  }
+
+  .lg-show-autoplay .lg-autoplay-button:after {   /*Presentar hover*/
+    content: url(../../imagenes/playNegativo.png) !important;
+}
+
+
+
 
   .lg-outer .lg-img-wrap {
     background: linear-gradient rgb(189, 155, 221);
@@ -73,10 +109,24 @@ body {
   .lg-backdrop{
     background: linear-gradient(
        25deg,
-       rgb(189, 155, 221),
-       rgb(153, 33, 133)
+       rgb(100, 56, 145),
+       rgb(92, 2, 74)
      );
   }
+
+  .lg-sub-html {
+    background-color: #350031a8 !important;
+    bottom: 0;
+    color: #EEE;
+    font-size: 16px;
+    left: 0;
+    padding: 10px 40px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    z-index: 1080;
+    border: 2px solid #ffffff67;
+}
 
   body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object {
     border: 3px solid white;
