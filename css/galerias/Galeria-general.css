@@ -50,6 +50,10 @@ body {
     width: clamp(4rem, 25.31rem, 85vw );
   }
 
+  .lg-sub-html{
+    font-size: 1.7rem !important;
+  }
+
 
 
 
