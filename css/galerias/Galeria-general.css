@@ -55,6 +55,13 @@ body {
   }
 
 
+  /* TAMAÑO DE IMAGEN */
+  .lg-outer.lg-show-after-load .lg-item.lg-complete .lg-object, .lg-outer.lg-show-after-load .lg-item.lg-complete .lg-video-play { 
+    max-width: clamp(10rem, 44rem, 100%) !important;
+    max-height: clamp(10rem, 44rem, 100%) !important;
+}
+
+
 
 
 
