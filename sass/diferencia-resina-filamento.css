@@ -12,7 +12,7 @@
   margin-top: 1.2em;
   margin-bottom: 40px;
   text-align: center;
-  font-size: 5.5rem;
+  font-size: clamp(1rem, 5.5rem, 4.5vw);
   border-radius: 10px;
   font-family: "Rubik";
 }
@@ -24,6 +24,9 @@
   height: 100%;
   margin-bottom: 10em;
 }
+.sobre-nosotros .contenedor-sobre-nosotros .imagen-about-us {
+  width: 50%;
+}
 .sobre-nosotros .contenedor-sobre-nosotros .contenidos-textos {
   display: flex;
   justify-content: center;
@@ -33,7 +36,7 @@
   display: none;
 }
 .sobre-nosotros .contenedor-sobre-nosotros .contenidos-textos h3 {
-  font-size: 3.5rem;
+  font-size: clamp(1rem, 3.5rem, 3vw);
   font-weight: bold;
 }
 .sobre-nosotros .contenedor-sobre-nosotros .contenidos-textos h3 span { /*circulo violeta*/
@@ -42,17 +45,17 @@
   border-radius: 50%; /*para que sea redondo*/
   display: inline-block; /*propiedad de bloque*/
   text-align: center;
-  width: 5rem;
-  height: 5rem;
+  width: clamp(1rem, 5rem, 4vw);
+  height: clamp(1rem, 5rem, 4vw);
   padding: 1px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
   margin-right: 10px;
 }
 .sobre-nosotros .contenedor-sobre-nosotros .contenidos-textos p {
   padding: 0px 0px 30px 15px;
-  font-size: 2rem;
   text-align: justify;
   font-family: "Rubik";
+  font-size: clamp(1rem, 2rem, 1.5vw);
 }
 .sobre-nosotros .contenedor-sobre-nosotros .contenidos-textos .imagen-impresora-filamento {
   display: none;
@@ -61,7 +64,7 @@
 /*----------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .sobre-nosotros .titulo-diferencia {
-    font-size: 3rem;
+    font-size: clamp(3rem, 4.5rem, 5vw);
   }
   .sobre-nosotros .contenedor-sobre-nosotros {
     flex-direction: column;
