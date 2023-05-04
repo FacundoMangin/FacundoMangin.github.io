@@ -1,0 +1,38 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+body {
+  background: linear-gradient(25deg, rgb(189, 155, 221), rgb(153, 33, 133));
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+body nav .desplegable .dropdown {
+  text-align: right;
+  margin: 4% 0px 0px 0px;
+}
+body .container {
+  margin: 5% auto;
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+body .container img {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  transition: all 400ms ease-in-out;
+}
+body .container imghover {
+  transform: scale(1.02);
+}
+body .container #lightgallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body .container #lightgallery img {
+  width: clamp(4rem, 25.31rem, 85vw);
+}/*# sourceMappingURL=galeria.css.map */

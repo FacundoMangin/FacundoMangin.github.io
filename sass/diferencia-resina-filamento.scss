@@ -1,0 +1,153 @@
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Variables --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+
+    $fondo-circulo-violeta: blueviolet;
+    $letras-titulo: blueviolet;
+    $letras-responsive: #bb00ff;
+    $borde-titulo: 0.3vw solid #000000;
+    $numero-circulo-violet: white;
+    $sombra-circulo-violeta: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Imagen Diferencia entre "Resina" y "Filamento" --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+
+.sobre-nosotros{
+    .titulo-diferencia{
+        color: $letras-titulo; 
+        font-weight:bold; 
+        padding:15px; 
+        margin-top:1.2em;
+        margin-bottom:40px;
+        text-align:center;
+        font-size: 5.5rem;
+        border-radius:10px;
+        font-family: 'Rubik';  
+    }
+
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10em;
+
+        .contenidos-textos{
+            display: flex;    
+            justify-content: center;
+            flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
+
+            .imagen-resina{
+                display: none;
+            }
+
+            h3{
+                font-size: 3.5rem;
+                font-weight:bold;
+                
+                span{     /*circulo violeta*/
+                    background:$fondo-circulo-violeta ;
+                    color: $numero-circulo-violet;
+                    border-radius: 50%;     /*para que sea redondo*/
+                    display: inline-block;  /*propiedad de bloque*/
+                    text-align: center;
+                    width: 5rem;
+                    height: 5rem;
+                    padding: 1px;
+                    box-shadow: $sombra-circulo-violeta;
+                    margin-right: 10px;
+                }
+            }
+
+            p{
+                padding: 0px 0px 30px 15px;
+                font-size: 2rem;
+                text-align: justify;
+                font-family: 'Rubik';
+            }
+
+            .imagen-impresora-filamento{
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------- */
+
+
+@media screen and (max-width: 1000px){
+    .sobre-nosotros{
+        .titulo-diferencia{
+            font-size: 3rem; 
+        }
+
+        .contenedor-sobre-nosotros{
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            
+            .imagen-about-us{
+                display: none;
+            }
+            .contenidos-textos{
+                width: 100%; 
+                align-items: center;
+                text-align: center;
+
+                h3{                                          /*Tamaño del titulo*/
+                    color: $letras-responsive;
+                    font-size: 3.5rem;    
+                    
+                    span{     /*circulo violeta*/
+                        display: none;
+                    }
+                
+                }
+                p{ 
+                    font-size: 1.8rem;                                         /*centra los parrafos que estan debajo de los titulos*/
+                    text-align: center;
+                    padding: 0px;
+                }
+                img{                                 /*pequeña separacion de las imagenes con respecto a los titulos*/
+                    margin-bottom: 20px;
+                }
+                .imagen-resina{                         /*Muestra la imagen de la impresora de resina*/
+                    display: flex;
+                    width: 100%;
+                    min-width: 150px;
+                    max-width: 200px;
+                    justify-content: center;
+                    align-items: center;  
+                }
+                .imagen-impresora-filamento{         /*Muestra la imagen de la impresora de filamento*/
+                    display: flex;
+                    width: 100%;
+                    min-width: 150px;
+                    max-width: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+
+
+

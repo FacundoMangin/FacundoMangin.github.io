@@ -51,7 +51,7 @@
 }
 
 .lg-actions .lg-next:before {
-  content: "\e095";
+  content: url(../../imagenes/next.png)
 }
 
 .lg-actions .lg-prev {
@@ -59,7 +59,7 @@
 }
 
 .lg-actions .lg-prev:after {
-  content: "\e094";
+  content: url(../../imagenes/prev.png)
 }
 
 @-webkit-keyframes lg-right-end {
@@ -206,24 +206,25 @@
 }
 
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: url(../../imagenes/close.png)
 }
 
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: url(../../imagenes/descargas.png)
 }
 
 .lg-sub-html {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: #350031a8 ;
   bottom: 0;
   color: #EEE;
-  font-size: 16px;
+  font-size: 1.7rem ;
   left: 0;
   padding: 10px 40px;
   position: fixed;
   right: 0;
   text-align: center;
   z-index: 1080;
+  border: 2px solid #ffffff67;
 }
 
 .lg-sub-html h4 {
@@ -290,6 +291,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   opacity: 1;
+  border: 3px solid white;
 }
 
 .lg-outer .lg-thumb-outer {
@@ -530,11 +532,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-autoplay-button:after {
-  content: "\e01d";
+  content: url(../../imagenes/play.png);
 }
 
 .lg-show-autoplay .lg-autoplay-button:after {
-  content: "\e01a";
+  content: url(../../imagenes/playNegativo.png);
 }
 
 .lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap, .lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-image {
@@ -581,7 +583,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 #lg-zoom-in:after {
-  content: "\e311";
+  content: url(../../imagenes/zoom-in.png)
 }
 
 #lg-actual-size {
@@ -589,16 +591,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 #lg-actual-size:after {
-  content: "\e033";
+  content: url(../../imagenes/screen.png) !important;
 }
 
 #lg-zoom-out {
-  opacity: 0.5;
+  opacity: 1;
   pointer-events: none;
 }
 
 #lg-zoom-out:after {
-  content: "\e312";
+  content: url(../../imagenes/zoom-out.png) !important;
 }
 
 .lg-zoomed #lg-zoom-out {
@@ -696,7 +698,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-fullscreen:after {
-  content: "\e20c";
+  content: url(../../imagenes/expandir.png) !important;
 }
 
 .lg-fullscreen-on .lg-fullscreen:after {
@@ -1009,6 +1011,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   right: 0;
   top: 0;
   bottom: 0;
+  background: linear-gradient rgb(189, 155, 221);
 }
 
 .lg-outer .lg-item.lg-complete {
@@ -1037,6 +1040,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-outer.lg-show-after-load .lg-item.lg-complete .lg-object, .lg-outer.lg-show-after-load .lg-item.lg-complete .lg-video-play {
   opacity: 1;
+  max-width: clamp(10rem, 44rem, 100%) !important;
+    max-height: clamp(10rem, 44rem, 100%) !important;
 }
 
 .lg-outer .lg-empty-html {
@@ -1059,6 +1064,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;
   transition: opacity 0.15s ease 0s;
+  background: linear-gradient(
+       25deg,
+       rgb(100, 56, 145),
+       rgb(92, 2, 74)
+     );
 }
 
 .lg-backdrop.in {

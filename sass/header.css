@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Variables --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+/*-----------------------------------------------------------------------------------------*/
+/*-------------------------- IMAGEN PRESENTACION Y LETRAS --------------------------------- */
+/*-----------------------------------------------------------------------------------------*/
+header {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7450980392), rgba(0, 0, 0, 0.7450980392)), url(../imagenes/purple.jpg);
+  background-size: 100% 100%;
+}
+header .textos-header {
+  flex-direction: column; /*para que el texto se escriba uno bajo el otro*/
+  color: rgb(197, 197, 197);
+  font-family: "Lilita One";
+  text-shadow: 5px 5px 15px rgb(121, 19, 124);
+}
+header .textos-header h1 { /*texto 1 Tamaño*/
+  font-size: clamp(6rem, 12rem, 9vw);
+}
+header .textos-header h2 { /*texto 2 Tamaño*/
+  font-size: clamp(2rem, 4rem, 4vw);
+}
+header .logo-presentacion {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+-----------------------  Respónsive  ---------------------------
+----------------------------------------------------------------*/
+/* ------------ Celulares chicos ejemplo Galaxy Fold-------------- */
+@media screen and (max-width: 500px) {
+  header {
+    height: 100vh;
+    background-size: cover;
+    background: url(../imagenes/fondo-celular.jpg);
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-height: 500px) {
+  header .textos-header {
+    display: none;
+  }
+  header .logo-presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+  }
+  header .logo-presentacion img {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+  }
+}/*# sourceMappingURL=header.css.map */

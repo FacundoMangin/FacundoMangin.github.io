@@ -1,0 +1,60 @@
+
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+    background: linear-gradient(
+      25deg,
+      rgb(189, 155, 221),
+      rgb(153, 33, 133)
+    );
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+
+    nav{
+        .desplegable{
+            .dropdown{
+                text-align: right;
+                margin: 4% 0px 0px 0px;
+              }
+        }
+    }
+
+    .container {
+        margin: 5% auto;
+        padding: 20px 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+
+        img {
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            transition: all 400ms ease-in-out;
+
+            &hover {
+                transform: scale(1.02);
+              }
+        }
+
+        #lightgallery{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            img{
+                width: clamp(4rem, 25.31rem, 85vw );
+            }
+        }
+    }
+}
+  
+
+
+
+
+
