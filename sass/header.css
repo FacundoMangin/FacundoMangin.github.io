@@ -26,6 +26,9 @@ header .textos-header h1 { /*texto 1 Tamaño*/
 header .textos-header h2 { /*texto 2 Tamaño*/
   font-size: clamp(2rem, 4rem, 4vw);
 }
+header .titulo-logo-celular {
+  display: none;
+}
 header .logo-presentacion {
   display: none;
 }
@@ -45,15 +48,18 @@ header .logo-presentacion {
   header .textos-header {
     display: none;
   }
-  header .logo-presentacion {
+  header .titulo-logo-celular {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 82vh;
+    flex-direction: column; /*para que el texto se escriba uno bajo el otro*/
+    color: rgb(197, 197, 197);
+    font-family: "Lilita One";
+    text-shadow: 5px 5px 15px rgb(121, 19, 124);
   }
-  header .logo-presentacion img {
-    display: flex;
-    width: 100%;
-    max-width: 500px;
+  header .titulo-logo-celular h1 { /*texto 1 Tamaño*/
+    font-size: clamp(6rem, 40rem, 70vw);
+    line-height: 0.8;
+  }
+  header .titulo-logo-celular h2 { /*texto 2 Tamaño*/
+    font-size: clamp(3rem, 10rem, 15vw);
   }
 }/*# sourceMappingURL=header.css.map */
