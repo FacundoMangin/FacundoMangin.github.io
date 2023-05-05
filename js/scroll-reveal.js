@@ -1,10 +1,3 @@
-//nav
-window.sr = ScrollReveal();
-  sr.reveal('nav .container', {
-    duration: 2500,
-    distance: '30px',
-    origin: 'top'
-  });
 
 // header
 
