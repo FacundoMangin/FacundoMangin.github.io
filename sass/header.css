@@ -11,8 +11,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-size: cover;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7450980392), rgba(0, 0, 0, 0.7450980392)), url(../imagenes/purple.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8823529412), rgba(0, 0, 0, 0.8823529412)), url(../imagenes/fondo-header.jpg);
   background-size: 100% 100%;
 }
 header .textos-header {
@@ -38,8 +37,7 @@ header .logo-presentacion {
 @media screen and (max-width: 500px) {
   header {
     height: 100vh;
-    background-size: cover;
-    background: url(../imagenes/fondo-celular.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8823529412), rgba(0, 0, 0, 0.8823529412)), url(../imagenes/fondo-header-celular.jpg);
     background-size: 100% 100%;
   }
 }
