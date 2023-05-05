@@ -16,7 +16,7 @@ window.addEventListener("scroll", function() {
         
     } else {
         /* --sino se oculta añadiendo un top negativo */
-        $nav.style.top = "-80px";
+        $nav.style.top = "-200px";
     }
 
     /* --actulizo la ubicacion principal */
