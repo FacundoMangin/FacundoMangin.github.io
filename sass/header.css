@@ -60,6 +60,10 @@ header .logo-presentacion {
     line-height: 0.8;
   }
   header .titulo-logo-celular h2 { /*texto 2 Tamaño*/
-    font-size: clamp(3rem, 10rem, 15vw);
+    font-size: clamp(5rem, 10rem, 15vw);
+  }
+  header .titulo-logo-celular h3 { /*texto 2 Tamaño*/
+    font-size: clamp(2rem, 3.3rem, 5vw);
+    font-family: "rubik";
   }
 }/*# sourceMappingURL=header.css.map */
