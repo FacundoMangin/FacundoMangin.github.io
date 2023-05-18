@@ -26,11 +26,13 @@ header{
         text-shadow: 5px 5px 15px rgb(121, 19, 124);
 
         h1{  /*texto 1 Tamaño*/
-            font-size: clamp(6rem, 12rem, 9vw);   
+            font-size: clamp(6rem, 12rem, 9vw); 
+            margin: 0 0 0 0 !important;  
         }
 
         h2{  /*texto 2 Tamaño*/
             font-size: clamp(2rem, 4rem, 4vw);
+            margin: 0 0 0 0 !important;  
         }
 
     }
