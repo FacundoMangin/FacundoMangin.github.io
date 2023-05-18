@@ -26,7 +26,6 @@ header .textos-header h1 { /*texto 1 Tamaño*/
 }
 header .textos-header h2 { /*texto 2 Tamaño*/
   font-size: clamp(2rem, 4rem, 4vw);
-  margin: 0 0 0 0 !important;
 }
 header .titulo-logo-celular {
   display: none;
@@ -60,6 +59,7 @@ header .logo-presentacion {
   header .titulo-logo-celular h1 { /*texto 1 Tamaño*/
     font-size: clamp(6rem, 40rem, 70vw);
     line-height: 0.8;
+    margin: 0 0 0 0 !important;
   }
   header .titulo-logo-celular h2 { /*texto 2 Tamaño*/
     font-size: clamp(5rem, 10rem, 15vw);

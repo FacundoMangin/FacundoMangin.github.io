@@ -27,12 +27,11 @@ header{
 
         h1{  /*texto 1 Tamaño*/
             font-size: clamp(6rem, 12rem, 9vw); 
-            margin: 0 0 0 0 !important;  
+            margin: 0 0 0 0 !important;
         }
 
         h2{  /*texto 2 Tamaño*/
             font-size: clamp(2rem, 4rem, 4vw);
-            margin: 0 0 0 0 !important;
         }
 
     }
@@ -87,6 +86,7 @@ header{
             h1{  /*texto 1 Tamaño*/
                 font-size: clamp(6rem, 40rem, 70vw);  
                 line-height: 0.8; 
+                margin: 0 0 0 0 !important;
             }
 
             h2{  /*texto 2 Tamaño*/
