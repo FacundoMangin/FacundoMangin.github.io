@@ -4,7 +4,7 @@
 body .navbar {
   background: rgba(92, 0, 95, 0.993);
   box-shadow: inset 7px 4px 38px -25px rgb(255, 0, 255);
-  transition: all ease-in-out 600ms;
+  transition: all ease-in-out 250ms;
 }
 body .navbar .container .titulo-logo .text-commander {
   display: flex;
