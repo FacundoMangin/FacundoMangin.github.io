@@ -15,8 +15,55 @@ body {
     nav{
         .desplegable{
             .dropdown{
-                text-align: right;
                 margin: 4% 0px 0px 0px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                gap: 20px;
+
+
+                .switch{
+                    height: 30px;
+                    background-color: #343d5b;
+                    border-radius: 1000px;
+                    border: none;
+                    position: relative;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    outline: none;
+                    &::after{
+                        content: "";
+                        display: block;
+                        width: 30px;
+                        height: 30px;
+                        position: absolute;
+                        background: white;
+                        top: 0;
+                        left: 0;
+                        right: unset;
+                        border-radius: 100px;
+                        transition:  all 300ms ease-in-out; 
+                        box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
+                    }
+                    &.boton-activo{
+                        background-color: orange;
+                        color: black;
+                        &::after{
+                            left: unset;
+                            right: 0;
+                        }
+                    }
+                    span{
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        display: block;
+                        background: none;
+                        color: white;
+                    }
+                }
               }
         }
     }

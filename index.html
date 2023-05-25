@@ -20,7 +20,7 @@
   <!-- scrollreveal -->
   <script src="https://unpkg.com/scrollreveal"></script>
   
-    <!-- letra Rubik -->
+  <!-- letra Rubik -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="sass/diferencia-resina-filamento.css">
   <link rel="stylesheet" href="sass/carrusel.css">
   <link rel="stylesheet" href="sass/footer.css">
+  <link rel="stylesheet" href="sass/dark-mode.css">
 
   <link rel="shortcut icon" href="imagenes/logo_principal.png" type="image/x-icon">
       
@@ -64,7 +65,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#footer">Contactos</a>
               </li>
-          </ul>    
+          </ul>
+          <button class="switch" id="switch">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+          </button>    
         </div>
     </div>
   </nav>
@@ -90,13 +95,13 @@
           <img src="imagenes/3Dprinter.png" alt="" class="imagen-about-us">  <!-- Imagen Artillery -->
           <div class="contenidos-textos">
               <img src="imagenes/resina.png" alt="" class="imagen-resina">
-              <h3><span>1</span>Resina</h3>
+              <h3><span class="circulo-violeta">1</span>Resina</h3>
               <p>Proporciona una resolución mayor que otras impresoras.
                   <br>Es ideal para piezas más pequeñas con detalles.
                   <br>también es muy buena para objetos sólidos y rellenos, de carácter macizo.
               </p>
               <img src="imagenes/Filamento.png" alt="" class="imagen-impresora-filamento">  <!-- Imagen Artillery -->
-              <h3><span>2</span>Filamento</h3>
+              <h3><span class="circulo-violeta">2</span>Filamento</h3>
               <p>Las impresoras 3D de filamento trabajan dividiendo los objetos en capas que después son apiladas una encima de otra hasta reconstruir el modelo digital.
                   <br>Esto lleva a que las impresionen pierdan calidad.
                   <br>Se recomiendan para impreciones de un tamaño mayor.</p>
@@ -379,6 +384,7 @@
     <script src="./js/carrusel.js"></script>
     <script src="./js/scroll-reveal.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/modo-oscuro.js"></script>
     
   </body>
 </html>

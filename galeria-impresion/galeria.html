@@ -13,6 +13,7 @@
      <!-- Estilos CSS -->
      <link rel="stylesheet" href="../sass/galeria.css">
      <link rel="stylesheet" href="../css/galerias/lightgallery.css" />
+     <link rel="stylesheet" href="../sass/dark-mode-galeria.css">
 
 
      <!-- bootstrap -->
@@ -26,10 +27,14 @@
 
 </head>
 
-<body class="bg-light container-sm">
+<body class="bg-light container-sm" id="fondo-galeria">
      <nav>
           <div class="desplegable">
                <div class="dropdown">
+                    <button class="switch" id="switch">
+                         <span><i class="fa-solid fa-sun"></i></span>
+                         <span><i class="fa-solid fa-moon"></i></span>
+                    </button> 
                     <button class="btn" style="background: #ffffff;" type="button" data-bs-toggle="dropdown"
                          aria-expanded="false">
                          <i class="fa-solid fa-bars fondo" style="font-size: 15px; color: #6b0171;"></i>
@@ -57,30 +62,36 @@
      <div class="container escala">
           <div id="lightgallery">
                <a href="../imagenes/galeria/geishin.jpg" data-sub-html="<h3>Geishin Impact - Aether </h3>  $45.000">
-                    <img src="../imagenes/galeria/geishin.jpg" />
-                    </a>
-                    <a href="../imagenes/galeria/Vegeta-noGokui.jpg" data-sub-html="<h3>Vegeta no Gokui</h3> $55.000">
-                    <img src="../imagenes/galeria/Vegeta-noGokui.jpg" />
-                    </a>
-                    <a href="../imagenes/galeria/ironman.jpg" data-sub-html="<h3>Iron Man</h3> $100.000">
-                    <img src="../imagenes/galeria/ironman.jpg"/>
-                    </a>
-                    <a href="../imagenes/galeria/goku.jpg" data-sub-html="<h3>Goku</h3> $25.000">
-                    <img src="../imagenes/galeria/goku.jpg" />
-                    </a>
-                    <a href="../imagenes/galeria/juego.png" data-sub-html="<h3>...</h3> $0">
-                    <img src="../imagenes/galeria/juego.png"/>
-                    </a>
-                    <a href="../imagenes/galeria/mate-DeadPool.png" data-sub-html="<h3>DeadPool</h3> $5.000">
-                    <img src="../imagenes/galeria/mate-DeadPool.png" />
-                    </a>
-                    <a href="../imagenes/galeria/spiderman.png" data-sub-html="<h3>Spiderman</h3> $3.500">
-                    <img src="../imagenes/galeria/spiderman.png"/>
-                    </a>
-                    <a href="../imagenes/galeria/pokeball.png" data-sub-html="<h3>Pokeball</h3> $6.000">
-                    <img src="../imagenes/galeria/pokeball.png"/>
-                    </a>
+               <img src="../imagenes/galeria/geishin.jpg" />
+               </a>
 
+               <a href="../imagenes/galeria/Vegeta-noGokui.jpg" data-sub-html="<h3>Vegeta no Gokui</h3> $55.000">
+               <img src="../imagenes/galeria/Vegeta-noGokui.jpg" />
+               </a>
+
+               <a href="../imagenes/galeria/ironman.jpg" data-sub-html="<h3>Iron Man</h3> $100.000">
+               <img src="../imagenes/galeria/ironman.jpg"/>
+               </a>
+               
+               <a href="../imagenes/galeria/goku.jpg" data-sub-html="<h3>Goku</h3> $25.000">
+               <img src="../imagenes/galeria/goku.jpg" />
+               </a>
+               
+               <a href="../imagenes/galeria/juego.png" data-sub-html="<h3>...</h3> $0">
+               <img src="../imagenes/galeria/juego.png"/>
+               </a>
+               
+               <a href="../imagenes/galeria/mate-DeadPool.png" data-sub-html="<h3>DeadPool</h3> $5.000">
+               <img src="../imagenes/galeria/mate-DeadPool.png" />
+               </a>
+               
+               <a href="../imagenes/galeria/spiderman.png" data-sub-html="<h3>Spiderman</h3> $3.500">
+               <img src="../imagenes/galeria/spiderman.png"/>
+               </a>
+               
+               <a href="../imagenes/galeria/pokeball.png" data-sub-html="<h3>Pokeball</h3> $6.000">
+               <img src="../imagenes/galeria/pokeball.png"/>
+               </a>
           </div>
      </div>
 
@@ -93,11 +104,12 @@
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
-    <script src="../demo/js/lg-rotate.js"></script>
 
-    <script type="text/javascript">
+     <script type="text/javascript">
           lightGallery(document.getElementById('lightgallery')); 
      </script>
+
+     <script src="../js/modo-oscuro-galeria.js"></script>
      
 </body>
 
