@@ -14,6 +14,7 @@ body nav .desplegable .dropdown {
   gap: 20px;
 }
 body nav .desplegable .dropdown .switch {
+  width: 63px;
   height: 30px;
   background-color: #343d5b;
   border-radius: 1000px;
