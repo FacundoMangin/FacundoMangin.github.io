@@ -44,6 +44,23 @@ body {
                             transition: all 300ms ease-in-out;
                         }                  
                     }
+                    .nav-item {
+                        .dropdown-menu{
+                            background-color: #583f69 !important;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            
+                            li{
+                                a{
+                                    text-decoration: none !important;
+                                    font-size: 1.8rem !important;
+                                    img{
+                                        width: 2.8rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
                 .switch{
                     background-color: #343d5b;
