@@ -46,6 +46,10 @@ Imagine una pagina que muestre figuras impresas en 3D hechas por mi y mi compañ
 
 - Como ultimo detalle agregue los derechos de autor bajo el footer
 
+# __Implementación SASS__
+
+Se quito todo el CSS nativo y se implemento el uso de SASS
+
 # __Implementación JavaScript__
 
 - Se realizo un carrusel con JavaScript y la libreria Swipper (https://swiperjs.com/get-started).
