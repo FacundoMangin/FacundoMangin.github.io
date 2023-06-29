@@ -22,13 +22,7 @@ $background-color_11: #000;
 $border-color_1: #a90707;
 $border-bottom-color_1: #FFF;
 
-@font-face {
-	font-family: 'lg';
-	src: url("../fonts/lg.ttf?22t19m") format("truetype"), url("../fonts/lg.woff?22t19m") format("woff"), url("../fonts/lg.svg?22t19m#lg") format("svg");
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
-}
+
 @-webkit-keyframes lg-right-end {
 	0% {
 		left: 0;
@@ -802,7 +796,6 @@ body {
 		white-space: nowrap;
 	}
 	.lg-item {
-		background: url("../img/loading.gif") no-repeat scroll center center transparent;
 		display: none !important;
 		display: inline-block;
 		text-align: center;

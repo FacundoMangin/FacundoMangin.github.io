@@ -22,3 +22,4 @@ window.addEventListener("scroll", function() {
     /* --actulizo la ubicacion principal */
     ubicacionPrincipal = desplazamientoActual;
 });
+

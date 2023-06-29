@@ -65,6 +65,9 @@ body .container {
   box-sizing: border-box;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
 }
+body .container .text-center h1 {
+  margin: 10px;
+}
 body .container img {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
