@@ -46,4 +46,24 @@ Imagine una pagina que muestre figuras impresas en 3D hechas por mi y mi compañ
 
 - Como ultimo detalle agregue los derechos de autor bajo el footer
 
+# __Implementación SASS__
 
+Se quito todo el CSS nativo y se implemento el uso de SASS
+
+# __Implementación JavaScript__
+
+- Se realizo un carrusel con JavaScript y la libreria Swipper (https://swiperjs.com/get-started).
+- Implementacion de 3 galerias para mostrar los productos.
+     
+     - Se uso la libreria lightgallery (https://www.lightgalleryjs.com/) para mostrar las imagen mas grandes al darle click con varias funciones extras:
+     
+     - (Zoom, Descargar, Presentar, Expandir, entre otros),, tambien muestra el precio y nombre de cada figura.
+
+- Se crearon efectos de aparicion al hacer scroll hacia abajo con otra libreria llamada Scroll Reveal (https://scrollrevealjs.org/)
+- Se creo una nav desplegable, la cual se esconde cuado se hace scroll hacia abajo y se muestra haciendo scroll hacia arriba.
+    
+    - Se implemento con una funcion y un evento que se le aplican a los estilos.
+
+- Una implementacion muy util fue el modo oscuro, tambien llamado Dark mode.
+     
+     - Se creo con una funcion y un evento agregando clases al usar el evento click en un boton.
